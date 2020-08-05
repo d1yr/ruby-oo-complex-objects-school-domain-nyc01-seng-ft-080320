@@ -17,8 +17,9 @@ def grade(num)
  end
 end
 def sort 
+  new_roster = []
    roster.sort_by do |x,y|
-     x 
+     new_roster<< x
    end
 end
 
