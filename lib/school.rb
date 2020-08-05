@@ -18,7 +18,6 @@ def grade(num)
 end
 def sort 
   new_hash = {}
-  new_roster = []
    roster.sort_by do |x,y|
      new_hash[x] = y.sort
    end
