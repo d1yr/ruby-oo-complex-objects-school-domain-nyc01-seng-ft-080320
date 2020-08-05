@@ -20,6 +20,7 @@ def sort
   new_roster = []
    roster.sort_by do |x,y|
      new_roster<< x
+     new_roster
    end
 end
 
