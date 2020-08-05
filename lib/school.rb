@@ -9,12 +9,12 @@ def add_student(student, grade)
   roster[grade] ||=[]
   roster[grade]<< student
 end
-#def grade(num)
- # roster.detect do |x,y|
-  #  if x == num
-   #   return y
-   # end
-#  end
-#end
+def grade(num)
+  roster.detect do |x,y|
+    if x == num
+      return y
+    end
+ end
+end
 
 end
