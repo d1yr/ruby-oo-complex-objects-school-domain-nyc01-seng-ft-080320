@@ -19,7 +19,7 @@ end
 def sort 
   new_roster = []
    roster.sort_by do |x,y|
-     x.strip
+     x
    end
 end
 
